@@ -1,23 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Desert Pickup Driving 3D</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Desert Pickup Driving 3D - Relaxed pickup truck driving across open desert environments." />
+  <title>Desert Pickup Driving 3D</title>
+  <style>
+    :root{--bg:#0f1720;--panel:#18232e;--text:#f7f2e8;--muted:#b7c0c8;--accent:#e7a34a;--accent2:#f0c77c}
+    *{box-sizing:border-box} body{margin:0;font-family:Inter,Arial,sans-serif;background:linear-gradient(180deg,#0d141b,#17232e 55%,#0f1720);color:var(--text)}
+    a{text-decoration:none;color:inherit}.wrap{max-width:1120px;margin:auto;padding:0 24px}.nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0}.brand{font-weight:800;letter-spacing:.2px}.nav a{color:var(--muted);margin-left:22px}.nav a:hover{color:#fff}
+    .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;min-height:72vh;padding:54px 0 70px}.eyebrow{color:var(--accent2);font-weight:700;text-transform:uppercase;letter-spacing:2px;font-size:13px}.hero h1{font-size:clamp(42px,7vw,78px);line-height:.98;margin:14px 0 22px}.hero p{font-size:19px;line-height:1.7;color:var(--muted);max-width:650px}
+    .buttons{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}.btn{padding:14px 20px;border-radius:14px;font-weight:750;display:inline-block}.primary{background:var(--accent);color:#1b140b}.secondary{border:1px solid #3b4a58;color:#fff}
+    .scene{height:460px;border-radius:28px;position:relative;overflow:hidden;background:linear-gradient(#284052 0 45%,#d99b54 45% 67%,#bd6f36 67%);box-shadow:0 25px 70px #0007}.sun{position:absolute;width:95px;height:95px;border-radius:50%;background:#ffd77a;right:60px;top:55px;box-shadow:0 0 40px #ffd77a77}.dune{position:absolute;left:-10%;right:-10%;height:180px;border-radius:50%;background:#e5aa64;bottom:70px;transform:rotate(-6deg)}
+    .truck{position:absolute;left:18%;bottom:84px;width:260px;height:105px;background:#df7c31;border-radius:28px 36px 14px 16px;transform:skewX(-4deg)}.truck:before{content:"";position:absolute;width:105px;height:72px;background:#d86e27;left:120px;top:-48px;border-radius:20px 24px 0 0}.truck:after{content:"";position:absolute;width:64px;height:42px;background:#a7d1df;left:138px;top:-35px;border-radius:10px}.wheel{position:absolute;width:58px;height:58px;background:#1b1b1b;border:10px solid #343434;border-radius:50%;bottom:-25px}.w1{left:32px}.w2{right:34px}
+    section{padding:76px 0}.section-title{font-size:36px;margin:0 0 16px}.section-sub{color:var(--muted);max-width:720px;line-height:1.7}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}.card{background:var(--panel);border:1px solid #263747;border-radius:20px;padding:26px}.card h3{margin:8px 0 10px}.card p{color:var(--muted);line-height:1.65;margin:0}.icon{font-size:30px}
+    .cta{background:linear-gradient(135deg,#e7a34a,#f0c77c);color:#1c140a;border-radius:28px;padding:38px;display:flex;justify-content:space-between;gap:24px;align-items:center}.cta h2{margin:0 0 8px;font-size:32px}.cta p{margin:0;color:#49321d}.cta .btn{background:#17212a;color:#fff}
+    footer{border-top:1px solid #253441;margin-top:70px;padding:28px 0 36px;color:#88949e;font-size:14px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.foot a{color:#c8d0d6;margin-left:18px}
+    @media(max-width:820px){.hero{grid-template-columns:1fr}.scene{height:360px}.grid{grid-template-columns:1fr}.nav .links{display:none}.cta{align-items:flex-start;flex-direction:column}.hero{padding-top:20px}}
+  </style>
 </head>
 <body>
-    <h1>AdCar 3D Games</h1>
-    <p>《沙漠皮卡驾驶 3D》是一款轻松愉悦的驾驶游戏，玩家将驾驶皮卡探索开阔的沙漠环境。游戏注重流畅的驾驶体验、简单的操控和悠闲的探索，而非竞速或竞技。
+  <div class="wrap">
+    <nav class="nav"><div class="brand">Desert Pickup Driving 3D</div><div class="links"><a href="#features">Features</a><a href="privacy.html">Privacy</a><a href="#contact">Contact</a></div></nav>
+    <main class="hero">
+      <div>
+        <div class="eyebrow">Relax • Drive • Explore</div>
+        <h1>Own the open desert.</h1>
+        <p>Enjoy a calm pickup truck driving experience across wide desert landscapes. Simple controls, smooth movement and open terrain make every drive easy to pick up and relaxing to play.</p>
+        <div class="buttons">
+          <a class="btn primary" href="https://play.google.com/store/apps/details?id=com.toDo.toDoApp" target="_blank" rel="noopener">Get it on Google Play</a>
+          <a class="btn secondary" href="https://sites.google.com/view/ahmedelamir/home?pli=1&authuser=0">Privacy Policy</a>
+        </div>
+      </div>
+      <div class="scene" aria-label="Stylized desert pickup illustration">
+        <div class="sun"></div><div class="dune"></div>
+        <div class="truck"><span class="wheel w1"></span><span class="wheel w2"></span></div>
+      </div>
+    </main>
 
-驰骋于遍布岩石、小山丘和开阔小径的广袤沙漠。在精心操控的过程中，不断提升你的驾驶技巧，享受宁静的驾驶乐趣。这款游戏专为喜欢轻松无压力驾驶体验的玩家而设计。
+    <section id="features">
+      <h2 class="section-title">Built for easy-going driving</h2>
+      <p class="section-sub">Desert Pickup Driving 3D focuses on smooth controls and peaceful exploration rather than high-pressure racing.</p>
+      <div class="grid">
+        <div class="card"><div class="icon">🚙</div><h3>Simple Controls</h3><p>Easy pickup truck handling designed for quick, comfortable play.</p></div>
+        <div class="card"><div class="icon">🏜️</div><h3>Open Desert</h3><p>Explore wide desert areas with rocks, hills and open paths.</p></div>
+        <div class="card"><div class="icon">✨</div><h3>Smooth Experience</h3><p>Clean low-poly visuals and relaxed movement for a calm driving session.</p></div>
+      </div>
+    </section>
 
-🚙 游戏特色：
-
-简单易上手的皮卡操控
-
-开阔的沙漠驾驶环境
-
-流畅逼真的驾驶体验
-
-简洁的低多边形风格画面.</p>
+    <section id="contact">
+      <div class="cta">
+        <div><h2>Need help?</h2><p>For support or privacy questions, contact the developer by email.</p></div>
+        <a class="btn" href="mailto:ahmedelameer01@gmail.com">ahmedelameer01@gmail.com</a>
+      </div>
+    </section>
+  </div>
+  <footer><div class="wrap foot"><div>© 2026 Desert Pickup Driving 3D. All rights reserved.</div><div><a href="privacy.html">Privacy Policy</a><a href="https://play.google.com/store/apps/details?id=com.toDo.toDoApp" target="_blank" rel="noopener">Google Play</a></div></div></footer>
 </body>
 </html>
