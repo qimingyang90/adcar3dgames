@@ -1,84 +1,269 @@
-<!doctype html>
-<html lang="en-US">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Privacy Policy for Turbo Drift: Extreme Racing.">
-  <meta name="theme-color" content="#071a38">
   <title>Privacy Policy | Turbo Drift: Extreme Racing</title>
-  <link rel="icon" href="assets/Turbo-icon.png">
   <style>
-    :root{--navy:#071a38;--blue:#0757d8;--cyan:#17c9ff;--yellow:#ffd21c;--ink:#102040;--muted:#5d6980;--paper:#f4f8ff;--white:#fff;--line:#dce6f5}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;line-height:1.72}a{color:var(--blue)}.wrap{width:min(920px,calc(100% - 32px));margin:auto}.topbar{background:var(--navy);color:#fff}.topbar .wrap{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none;font-weight:900}.brand img{width:44px;height:44px;border-radius:8px}.home{color:#fff;text-decoration:none;font-weight:750}.hero{padding:78px 0 62px;color:#fff;background:radial-gradient(circle at 85% 20%,#0b79df 0,transparent 34%),linear-gradient(135deg,#06152f,#073c8f)}.tag{color:var(--yellow);font-size:12px;font-weight:900;letter-spacing:.15em;text-transform:uppercase}.hero h1{margin:12px 0 14px;font-size:clamp(42px,7vw,68px);line-height:1;letter-spacing:-.05em}.hero p{max-width:700px;margin:0;color:#d8e7ff;font-size:18px}.meta{display:grid;grid-template-columns:max-content 1fr;gap:7px 18px;margin-top:28px;color:#d8e7ff;font-size:14px}.meta strong{color:#fff}.content{background:#fff;margin:38px auto 55px;padding:clamp(24px,6vw,58px);border:1px solid var(--line);border-radius:24px;box-shadow:0 20px 55px #173f8012}.summary{padding:20px 22px;border-left:5px solid var(--blue);border-radius:10px;background:#eaf4ff}.summary strong{display:block;margin-bottom:5px}.content h2{margin:38px 0 10px;font-size:25px;line-height:1.25}.content h2:first-of-type{margin-top:34px}.content p,.content li{color:var(--muted)}.content ul{padding-left:22px}.contact{margin-top:40px;padding:24px;border-radius:16px;background:var(--navy);color:#fff}.contact h2{margin-top:0;color:#fff}.contact p{color:#cbd9ef}.contact a{color:var(--yellow);font-weight:900}.footer{padding:0 0 44px;text-align:center;color:#71809a;font-size:13px}@media(max-width:560px){.topbar .wrap{min-height:68px}.brand span{font-size:14px}.hero{padding:58px 0 48px}.meta{grid-template-columns:1fr;gap:2px}.meta strong{margin-top:8px}.content{margin-top:22px;border-radius:17px}}
+    :root {
+      --background: #070b16;
+      --surface: #10182a;
+      --surface-light: #16223a;
+      --text: #eef4ff;
+      --muted: #aebbd0;
+      --accent: #42a5ff;
+      --accent-light: #7bc2ff;
+      --border: rgba(255, 255, 255, 0.1);
+      --shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 85% 0%, rgba(34, 120, 255, 0.22), transparent 30rem),
+        linear-gradient(180deg, #0a1020 0%, var(--background) 38%);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+    }
+
+    a {
+      color: var(--accent-light);
+    }
+
+    a:hover {
+      color: #ffffff;
+    }
+
+    .container {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 68px 0 42px;
+      text-align: center;
+    }
+
+    .app-icon {
+      width: 92px;
+      height: 92px;
+      margin-bottom: 18px;
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+      object-fit: cover;
+    }
+
+    h1,
+    h2 {
+      line-height: 1.25;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 6vw, 3.5rem);
+      letter-spacing: -0.04em;
+    }
+
+    .subtitle {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .effective-date {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 7px 14px;
+      color: #dcecff;
+      background: rgba(66, 165, 255, 0.12);
+      border: 1px solid rgba(66, 165, 255, 0.25);
+      border-radius: 999px;
+      font-size: 0.9rem;
+    }
+
+    main {
+      padding-bottom: 72px;
+    }
+
+    .card {
+      margin-bottom: 20px;
+      padding: clamp(22px, 5vw, 38px);
+      background: linear-gradient(145deg, rgba(22, 34, 58, 0.97), rgba(13, 21, 37, 0.97));
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      box-shadow: var(--shadow);
+    }
+
+    .notice {
+      border-left: 4px solid var(--accent);
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      color: #ffffff;
+      font-size: 1.45rem;
+    }
+
+    p {
+      margin: 0 0 14px;
+      color: var(--muted);
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      margin: 12px 0 0;
+      padding-left: 22px;
+      color: var(--muted);
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    strong {
+      color: var(--text);
+    }
+
+    footer {
+      padding: 26px 0 36px;
+      color: #8290a8;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding-top: 44px;
+      }
+
+      .app-icon {
+        width: 76px;
+        height: 76px;
+        border-radius: 18px;
+      }
+    }
   </style>
 </head>
 <body>
-  <header class="topbar">
-    <div class="wrap">
-      <a class="brand" href="index.html"><img src="assets/Turbo-icon.png" alt="Turbo Drift icon"><span>Turbo Drift: Extreme Racing</span></a>
-      <a class="home" href="index.html">Official Website</a>
-    </div>
+  <header class="container">
+    <img class="app-icon" src="assets/Turbo-icon.png" alt="Turbo Drift: Extreme Racing app icon">
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">Turbo Drift: Extreme Racing</p>
+    <span class="effective-date">Effective date: November 19, 2026</span>
   </header>
 
-  <main>
-    <section class="hero">
-      <div class="wrap">
-        <span class="tag">Legal · Privacy</span>
-        <h1>Privacy Policy</h1>
-        <p>This Privacy Policy explains how information is handled when you use Turbo Drift: Extreme Racing.</p>
-        <div class="meta">
-          <strong>Effective date</strong><span>November 9, 2026</span>
-          <strong>App</strong><span>Turbo Drift: Extreme Racing</span>
-          <strong>Package name</strong><span>com.turbo.drift.extremeracing</span>
-        </div>
-      </div>
+  <main class="container">
+    <section class="card notice">
+      <h2>Overview</h2>
+      <p>This Privacy Policy explains how information is handled when you use <strong>Turbo Drift: Extreme Racing</strong> (the “Game”). The Game may display advertisements through third-party advertising and mediation service providers. These providers may process certain device, technical, and advertising-related information as described below.</p>
     </section>
 
-    <article class="wrap content">
-      <div class="summary">
-        <strong>Privacy at a glance</strong>
-        Turbo Drift: Extreme Racing does not require an account, does not display ads, does not include advertising SDKs, and does not collect or transmit personal or sensitive user data. Game progress and settings are stored only on your device.
-      </div>
+    <section class="card">
+      <h2>1. Information You Provide</h2>
+      <p>The Game does not require you to create an account. We do not ask you to provide your name, postal address, phone number, or payment information to play the Game.</p>
+      <p>If you contact us for support, we may receive your email address and any information you choose to include in your message. We use this information only to respond to your request, maintain support records, and protect against abuse.</p>
+    </section>
 
-      <h2>1. Scope</h2>
-      <p>This Privacy Policy applies to Turbo Drift: Extreme Racing (the “Game”), published under the Android package name <strong>com.turbo.drift.extremeracing</strong>. It describes how the Game handles information when installed and played on an Android device.</p>
+    <section class="card">
+      <h2>2. Information Processed Automatically</h2>
+      <p>When you use the Game, third-party advertising, mediation, measurement, attribution, analytics, security, and anti-fraud service providers may automatically collect or receive information such as:</p>
+      <ul>
+        <li>IP address and approximate location derived from the IP address;</li>
+        <li>Advertising identifiers, device identifiers, app identifiers, and consent or privacy-choice signals;</li>
+        <li>Device model, operating system, language, time zone, screen size, network type, mobile carrier, and connection information;</li>
+        <li>Game version, package identifier, SDK version, and general app usage or session information;</li>
+        <li>Advertisement requests, availability, impressions, clicks, views, rewards, conversions, and other interactions with advertisements;</li>
+        <li>Crash reports, diagnostic data, performance information, and fraud or security signals.</li>
+      </ul>
+      <p>The exact information processed may vary depending on your device, region, privacy choices, the advertisement shown, and the providers available at that time.</p>
+    </section>
 
-      <h2>2. Information We Collect</h2>
-      <p>The Game does not require account registration and does not collect, transmit, or store personal or sensitive user data on our servers. We do not collect names, email addresses, phone numbers, precise location, contacts, photos, advertising identifiers, device identifiers, or payment information through the Game.</p>
+    <section class="card">
+      <h2>3. Local Game Data</h2>
+      <p>Game progress, preferences, settings, currency balances, unlocked content, and similar gameplay data may be stored locally on your device. This local data may be deleted if you uninstall the Game, clear its storage, reset your device, or use operating-system tools that remove app data.</p>
+    </section>
 
-      <h2>3. Information Stored on Your Device</h2>
-      <p>The Game may save gameplay information locally on your device, including level progress, unlocked vehicles, in-game currency, sound settings, and other preferences. This information remains on your device and is used only to provide the Game’s offline features.</p>
-      <p>You can delete locally stored information by clearing the Game’s app data or uninstalling the Game. Because this information is not transmitted to us, we cannot retrieve or restore it.</p>
+    <section class="card">
+      <h2>4. How Information Is Used</h2>
+      <p>Information processed in connection with the Game may be used to:</p>
+      <ul>
+        <li>Display contextual or personalized advertisements, where permitted;</li>
+        <li>Select and deliver advertisements and control how often they are shown;</li>
+        <li>Provide in-game rewards associated with rewarded advertisements;</li>
+        <li>Measure advertisement performance, engagement, attribution, and conversions;</li>
+        <li>Analyze technical performance, diagnose crashes, and improve reliability;</li>
+        <li>Detect invalid traffic, fraud, abuse, and security threats;</li>
+        <li>Comply with legal obligations and honor applicable privacy choices.</li>
+      </ul>
+    </section>
 
-      <h2>4. Advertising</h2>
-      <p>The Game does not display advertisements, does not include advertising SDKs, and does not access or use the Android advertising ID.</p>
+    <section class="card">
+      <h2>5. Advertising and Mediation</h2>
+      <p>The Game uses third-party advertising and mediation technology to request, select, and display advertisements. Mediation allows advertisements to be supplied by different advertising partners. The available partners may vary over time, by region, device, ad format, and availability.</p>
+      <p>Advertising providers may use the information described above to provide personalized advertising where you have consented or where otherwise permitted by law. If you choose non-personalized advertising, advertisements may still be displayed using contextual information, general location, device information, frequency controls, and fraud-prevention signals.</p>
+    </section>
 
-      <h2>5. Analytics, Crash Reporting, and Online Services</h2>
-      <p>The Game does not use third-party analytics SDKs, crash-reporting SDKs, account services, cloud saves, online leaderboards, or remote configuration services. The Game is designed to function without sending gameplay or device information to us.</p>
+    <section class="card">
+      <h2>6. Sharing and Third Parties</h2>
+      <p>Information may be processed by advertising networks, mediation platforms, advertisers, ad exchanges, demand-side platforms, measurement and attribution providers, analytics providers, anti-fraud providers, and other service providers involved in delivering and measuring advertisements or operating the Game.</p>
+      <p>These third parties may act as independent controllers or as service providers and may process information under their own privacy policies. Their practices are governed by their own terms. You may contact us if you would like information about the advertising providers currently used by the Game.</p>
+      <p>We do not directly sell your personal information to data brokers. However, some advertising activities may be considered a “sale,” “sharing,” or “targeted advertising” under certain privacy laws. Where required, we provide choices to limit those activities.</p>
+    </section>
 
-      <h2>6. Third-Party Sharing</h2>
-      <p>Because the Game does not collect personal data, we do not sell, rent, or share personal data with advertisers, data brokers, analytics providers, or other third parties.</p>
+    <section class="card">
+      <h2>7. Your Privacy Choices and Rights</h2>
+      <p>Depending on your location, you may have rights to access, correct, delete, restrict, or object to certain processing of your personal information, or to withdraw consent. You may also have the right to opt out of targeted advertising, sharing, or sale as those terms are defined by applicable law.</p>
+      <p>You can use any consent or privacy controls presented in the Game, as well as your device settings, to manage advertising personalization or reset or limit the use of your advertising identifier. Withdrawing consent does not affect processing that occurred before the withdrawal, and advertisements may continue to appear in a non-personalized or contextual form.</p>
+      <p>To submit a privacy request, contact us using the email address below. Because some information is processed directly by third-party providers, we may need to direct you to the relevant provider or request additional details needed to identify the applicable data.</p>
+    </section>
 
-      <h2>7. Support Communications</h2>
-      <p>If you choose to contact us by email, we will receive your email address, message, and any information you voluntarily include. We use that information only to respond to your request. Support messages are retained only for as long as reasonably necessary to resolve the request, meet legal obligations, or protect our rights, and are not used for advertising.</p>
-
+    <section class="card">
       <h2>8. Children’s Privacy</h2>
-      <p>The Game does not knowingly collect personal information from children. The Game has no account system, advertising, chat, social features, or in-game mechanism for submitting personal information. If you believe a child has sent personal information to us through a support email, please contact us so we can review and delete it where appropriate.</p>
+      <p>The Game does not require an account and does not include public chat or social networking features. We do not knowingly ask children to provide personal information directly to us.</p>
+      <p>Where we know that child-privacy requirements apply, we seek to use age-appropriate advertising and privacy settings and do not knowingly use children’s personal information for personalized advertising. If you believe a child has provided personal information to us, please contact us so that we can review and take appropriate action.</p>
+    </section>
 
-      <h2>9. Data Security and Retention</h2>
-      <p>Game progress and settings remain locally on your device until you clear the Game’s data or uninstall it. Any information you voluntarily send by email is handled with reasonable administrative and technical safeguards and retained only as described in Section 7.</p>
+    <section class="card">
+      <h2>9. Data Retention</h2>
+      <p>We retain support communications only for as long as reasonably necessary to respond, maintain records, resolve disputes, and comply with legal obligations. Third-party providers determine their own retention periods in accordance with their privacy policies and applicable law. Local game data remains on your device until it is removed as described above.</p>
+    </section>
 
-      <h2>10. Changes to This Policy</h2>
-      <p>We may update this Privacy Policy if the Game’s features, data practices, or legal requirements change. When we make changes, we will update the effective date shown at the top of this page. If a future version adds advertising, analytics, online services, or other data collection, this policy and the Google Play Data safety disclosure will be updated before that version is released.</p>
+    <section class="card">
+      <h2>10. Data Security and International Processing</h2>
+      <p>We use reasonable administrative and technical measures appropriate to the nature of the information we handle. No method of electronic transmission or storage is completely secure, so absolute security cannot be guaranteed.</p>
+      <p>Third-party providers may process information in countries other than the country where you live. Where required, they are responsible for using appropriate safeguards for international data transfers.</p>
+    </section>
 
-      <section class="contact">
-        <h2>11. Contact Us</h2>
-        <p>If you have questions about this Privacy Policy or the Game’s privacy practices, contact the developer at:</p>
-        <a href="mailto:ahmedelameer01@gmail.com">ahmedelameer01@gmail.com</a>
-      </section>
-    </article>
+    <section class="card">
+      <h2>11. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy to reflect changes to the Game, advertising practices, service providers, or legal requirements. We will post the updated policy on this page and revise the effective date above. We encourage you to review this page periodically.</p>
+    </section>
+
+    <section class="card">
+      <h2>12. Contact Us</h2>
+      <p>If you have questions, privacy requests, or concerns about this Privacy Policy, contact us at:</p>
+      <p><a href="mailto:ahmedelameer01@gmail.com">ahmedelameer01@gmail.com</a></p>
+      <p>Game package: <strong>com.turbo.drift.extremeracing</strong></p>
+    </section>
   </main>
 
-  <footer class="footer"><div class="wrap">© 2026 Turbo Drift: Extreme Racing. All rights reserved.</div></footer>
+  <footer class="container">
+    &copy; 2026 Turbo Drift: Extreme Racing. All rights reserved.
+  </footer>
 </body>
 </html>
