@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Support for InningStack Baseball Challenge">
+  <title>Support | InningStack Baseball Challenge</title>
+  <style>
+    :root {
+      --navy: #102a43;
+      --blue: #1f5f8b;
+      --red: #c63c32;
+      --ink: #243b53;
+      --muted: #627d98;
+      --line: #d9e2ec;
+      --paper: #ffffff;
+      --background: #f4f7fa;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--background);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    .top-line {
+      height: 5px;
+      background: linear-gradient(90deg, var(--red), var(--blue));
+    }
+
+    main {
+      width: min(860px, calc(100% - 32px));
+      margin: 48px auto;
+      padding: 48px 56px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      box-shadow: 0 14px 40px rgba(16, 42, 67, 0.08);
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--red);
+      font-size: 0.78rem;
+      font-weight: 750;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--navy);
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.15;
+      letter-spacing: -0.035em;
+    }
+
+    .app-name {
+      margin: 10px 0 4px;
+      color: var(--blue);
+      font-size: 1.08rem;
+      font-weight: 650;
+    }
+
+    .updated {
+      margin: 0 0 32px;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .contact-card {
+      margin: 0 0 34px;
+      padding: 22px 24px;
+      background: #f0f6fa;
+      border-left: 4px solid var(--blue);
+      border-radius: 0 10px 10px 0;
+    }
+
+    .contact-card p {
+      margin: 0 0 12px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 16px;
+      color: #fff;
+      background: var(--blue);
+      border-radius: 8px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .button:hover,
+    .button:focus-visible {
+      background: var(--navy);
+    }
+
+    h2 {
+      margin: 34px 0 10px;
+      color: var(--navy);
+      font-size: 1.28rem;
+      line-height: 1.35;
+    }
+
+    h3 {
+      margin: 22px 0 6px;
+      color: var(--ink);
+      font-size: 1rem;
+      line-height: 1.45;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul,
+    ol {
+      margin: 8px 0 16px;
+      padding-left: 22px;
+    }
+
+    li + li {
+      margin-top: 6px;
+    }
+
+    a:not(.button) {
+      color: var(--blue);
+      font-weight: 650;
+      text-underline-offset: 3px;
+    }
+
+    a:not(.button):hover,
+    a:not(.button):focus-visible {
+      color: var(--red);
+    }
+
+    footer {
+      margin-top: 42px;
+      padding-top: 22px;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 640px) {
+      main {
+        width: 100%;
+        margin: 0;
+        padding: 36px 22px 44px;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+      }
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
+
+      .top-line {
+        display: none;
+      }
+
+      main {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-line" aria-hidden="true"></div>
+
+  <main>
+    <header>
+      <p class="eyebrow">Player Support</p>
+      <h1>Support</h1>
+      <p class="app-name">InningStack Baseball Challenge</p>
+      <p class="updated">Last updated: November 26, 2026</p>
+    </header>
+
+    <section class="contact-card" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Need Help?</h2>
+      <p>
+        If you experience a problem, have a question, or would like to share
+        feedback about the game, please contact us by email.
+      </p>
+      <a class="button" href="mailto:pyromu@hotmail.com?subject=InningStack%20Baseball%20Challenge%20Support">
+        Email Support
+      </a>
+    </section>
+
+    <h2>Before You Contact Us</h2>
+    <p>Including the following details will help us investigate your issue:</p>
+    <ul>
+      <li>Your device model</li>
+      <li>Your iOS version</li>
+      <li>The version of InningStack Baseball Challenge</li>
+      <li>A clear description of what happened and what you expected</li>
+      <li>Steps that reproduce the issue, if known</li>
+      <li>Screenshots, if available</li>
+    </ul>
+    <p>
+      Support email:
+      <a href="mailto:pyromu@hotmail.com">pyromu@hotmail.com</a>
+    </p>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <h3>Does the game require an internet connection?</h3>
+    <p>
+      No. InningStack Baseball Challenge is designed as an offline,
+      single-player game.
+    </p>
+
+    <h3>Does the game collect personal information?</h3>
+    <p>
+      No. The game does not collect, store, transmit, sell, or share your
+      personal information. For more details, please read our
+      <a href="https://adcar3dgames.xyz/baseball-privacy-policy.html">Privacy Policy</a>.
+    </p>
+
+    <h3>What should I try if the game is not working correctly?</h3>
+    <ol>
+      <li>Close the game completely and open it again.</li>
+      <li>Restart your device.</li>
+      <li>Make sure your device is running a supported version of iOS.</li>
+      <li>Check the App Store for an available game update.</li>
+    </ol>
+
+    <h3>How can I reset or remove my game progress?</h3>
+    <p>
+      Game progress and settings may be stored locally on your device. Deleting
+      the game generally removes its local data. However, your device's backup
+      and restoration settings may restore that data later. Reinstalling the
+      game can permanently remove progress, so please use this option carefully.
+    </p>
+
+    <h3>Can deleted game progress be restored?</h3>
+    <p>
+      The game does not provide an online account or developer-operated cloud
+      save service. If local progress is deleted and is not available through a
+      device backup, we cannot restore it.
+    </p>
+
+    <h2>Response Time</h2>
+    <p>
+      We aim to respond to support requests within 3–5 business days. Response
+      times may vary on weekends and public holidays.
+    </p>
+
+    <h2>Privacy</h2>
+    <p>
+      Learn how the game handles information by reading the
+      <a href="https://adcar3dgames.xyz/baseball-privacy-policy.html">Privacy Policy for InningStack Baseball Challenge</a>.
+    </p>
+
+    <footer>
+      &copy; 2026 InningStack Baseball Challenge. All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
